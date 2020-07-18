@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> 
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css"> 
+  <link rel="stylesheet" href="css/madforelsa.css">
+  <title>엘사정령님 찬양하기</title>
+</head>
+<body>
+  <div id="madness">
+    <div id="content-area">
+      <img id="elsa" src="img/잠옷46.gif" alt="엘사정령님">
+      <div id="button-wrap">
+        <button id="execute" v-on:click="setMadness">
+          정령님 찬양하기
+          <span class="material-icons">keyboard_arrow_right</span>
+        </button>
+      </div>
+    </div>
+    <div id="echo"></div>
+  </div>
+  <script src="js/madforelsa.js"></script>
+</body>
+</html>
